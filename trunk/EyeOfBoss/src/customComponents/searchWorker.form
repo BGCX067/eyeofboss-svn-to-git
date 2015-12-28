@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="1"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="searchTitle" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="340" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nameCheckBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="addrCheckBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailCheckBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="cityCheckBox" min="-2" max="-2" attributes="0"/>
+                          <Component id="surnameCheckBox" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="searchButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="nameTextField" min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Component id="surnameTextField" min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Component id="cityTextField" min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Component id="addrTextField" min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Component id="emailTextField" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="phoneCheckBox" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                                  <Component id="functionCheckBox" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="lastDayCheckBox" pref="186" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="firstDayCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="functionComboBox" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="firstDayTextField" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="lastDayTextField" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="phoneTextField" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="workerInfoLabel" pref="384" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="searchTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="5" pref="5" max="5" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nameCheckBox" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="60" pref="60" max="60" attributes="0"/>
+                              <Component id="addrCheckBox" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="80" pref="80" max="80" attributes="0"/>
+                              <Component id="emailCheckBox" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="40" pref="40" max="40" attributes="0"/>
+                              <Component id="cityCheckBox" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="20" pref="20" max="20" attributes="0"/>
+                              <Component id="surnameCheckBox" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="searchButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="0" pref="184" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="nameTextField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="1" pref="1" max="1" attributes="0"/>
+                              <Component id="surnameTextField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="1" pref="1" max="1" attributes="0"/>
+                              <Component id="cityTextField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="1" pref="1" max="1" attributes="0"/>
+                              <Component id="addrTextField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="1" pref="1" max="1" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="emailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="functionCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="functionComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="phoneCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="phoneTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lastDayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lastDayTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="20" pref="20" max="20" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="firstDayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="firstDayTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="workerInfoLabel" pref="74" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="searchTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="searchTitle.text"/>
+        <Property name="name" type="java.lang.String" value="searchTitle" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="workersTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="3" rowCount="0">
+                <Column editable="false" title="ID" type="java.lang.Integer"/>
+                <Column editable="false" title="IMI&#x118;" type="java.lang.String"/>
+                <Column editable="false" title="NAZWISKO" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="1">
+                <Column maxWidth="100" minWidth="40" prefWidth="40" resizable="true">
+                  <Title resourceKey="workersTable.columnModel.title0"/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title resourceKey="workersTable.columnModel.title1"/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title resourceKey="workersTable.columnModel.title2"/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="name" type="java.lang.String" value="workersTable" noResource="true"/>
+            <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+              <JTableSelectionModel selectionMode="0"/>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JCheckBox" name="nameCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="nameCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="nameCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="nameCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="nameTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="nameTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="surnameCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="surnameCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="surnameCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="surnameCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="surnameTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="surnameTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="surnameTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cityCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="cityCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="cityCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="cityCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cityTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="cityTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="cityTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="addrCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="addrCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="addrCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="addrCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="addrTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="addrTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="addrTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="emailCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="emailCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="emailCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="emailCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="emailTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="emailTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="phoneCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="phoneCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="phoneCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="phoneCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="firstDayCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="firstDayCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="firstDayCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="firstDayCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="lastDayCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lastDayCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="lastDayCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="lastDayCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="functionCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="functionCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="functionCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="functionCheckBoxStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="functionComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="functionComboBox" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastDayTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lastDayTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="lastDayTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstDayTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="firstDayTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="firstDayTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phoneTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="phoneTextField.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="phoneTextField" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="searchButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="searchButton.text"/>
+        <Property name="name" type="java.lang.String" value="searchButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="workerInfoLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" resourceKey="workerInfoLabel.text"/>
+        <Property name="verticalAlignment" type="int" value="1"/>
+        <Property name="name" type="java.lang.String" value="workerInfoLabel" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,409 @@
+-- MySQL dump 10.11
+--
+-- Host: localhost    Database: bd
+-- ------------------------------------------------------
+-- Server version	5.0.54-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `Grafik`
+--
+
+DROP TABLE IF EXISTS `Grafik`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Grafik` (
+  `id_grafiku` int(11) NOT NULL auto_increment,
+  `id_zmiany` int(11) default NULL,
+  `dzien_od` datetime default NULL,
+  `dzien_do` datetime default NULL,
+  PRIMARY KEY  (`id_grafiku`)
+) ENGINE=MyISAM AUTO_INCREMENT=261 DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Grafik`
+--
+
+LOCK TABLES `Grafik` WRITE;
+/*!40000 ALTER TABLE `Grafik` DISABLE KEYS */;
+INSERT INTO `Grafik` VALUES (7,0,'2008-07-10 07:15:39','2008-07-10 14:00:39'),(165,0,'2008-07-09 07:15:14','2008-07-09 12:00:14'),(11,0,'2008-07-08 07:15:06','2008-07-08 14:00:06'),(14,0,'2008-08-12 08:00:22','2008-08-12 16:00:22'),(123,0,'2008-09-12 08:00:20','2008-09-12 15:59:20'),(59,0,'2008-09-16 00:00:37','2008-09-16 08:00:37'),(58,0,'2008-09-14 08:00:19','2008-09-14 16:00:19'),(122,0,'2008-09-11 16:00:59','2008-09-11 23:59:59'),(46,0,'2008-09-30 05:00:10','2008-09-30 21:00:10'),(54,0,'2008-09-15 16:00:39','2008-09-15 23:59:39'),(60,0,'2008-09-17 16:00:56','2008-09-17 23:59:56'),(125,1,'2008-10-13 12:00:01','2008-10-13 14:59:01'),(117,0,'2008-09-08 08:00:06','2008-09-08 16:00:06'),(116,0,'2008-09-06 08:00:02','2008-09-06 16:00:02'),(115,0,'2008-09-05 08:00:00','2008-09-05 16:00:00'),(113,0,'2008-09-03 08:00:42','2008-09-03 16:00:42'),(120,0,'2008-09-09 16:00:38','2008-09-09 23:59:38'),(75,1,'2008-09-13 00:00:01','2008-09-13 08:59:01'),(78,1,'2008-09-14 08:00:19','2008-09-14 16:00:19'),(79,1,'2008-09-11 08:00:59','2008-09-11 16:00:59'),(111,0,'2008-09-02 08:00:09','2008-09-02 12:00:09'),(81,1,'2008-09-30 05:00:10','2008-09-30 21:00:10'),(82,1,'2008-09-15 16:00:39','2008-09-15 23:59:39'),(253,1,'2008-09-17 16:00:56','2008-09-17 23:59:56'),(84,1,'2008-09-18 16:00:40','2008-09-18 23:59:40'),(86,1,'2008-09-20 00:00:07','2008-09-20 10:00:07'),(110,1,'2008-09-01 14:00:04','2008-09-01 22:00:04'),(112,1,'2008-09-02 12:00:53','2008-09-02 19:00:53'),(105,1,'2008-09-04 14:10:15','2008-09-04 22:00:15'),(106,1,'2008-09-05 14:10:18','2008-09-05 22:00:18'),(107,1,'2008-09-06 14:10:21','2008-09-06 22:00:21'),(93,1,'2008-09-09 00:00:38','2008-09-09 08:00:38'),(126,1,'2008-10-12 08:00:20','2008-10-12 15:59:20'),(127,1,'2008-10-16 00:00:37','2008-10-16 08:00:37'),(128,1,'2008-10-14 08:00:19','2008-10-14 16:00:19'),(129,1,'2008-10-11 16:00:59','2008-10-11 23:59:59'),(130,1,'2008-10-10 16:00:53','2008-10-10 23:59:53'),(131,1,'2008-10-30 05:00:10','2008-10-30 21:00:10'),(132,1,'2008-10-15 16:00:39','2008-10-15 23:59:39'),(133,1,'2008-10-17 16:00:56','2008-10-17 23:59:56'),(134,1,'2008-10-18 16:00:40','2008-10-18 23:59:40'),(135,1,'2008-10-19 16:00:46','2008-10-19 23:59:46'),(136,1,'2008-10-20 00:00:07','2008-10-20 10:00:07'),(137,1,'2008-10-08 08:00:06','2008-10-08 16:00:06'),(138,1,'2008-10-06 08:00:02','2008-10-06 16:00:02'),(139,1,'2008-10-05 08:00:00','2008-10-05 16:00:00'),(140,1,'2008-10-04 08:00:58','2008-10-04 16:00:58'),(141,1,'2008-10-03 08:00:42','2008-10-03 16:00:42'),(142,1,'2008-10-09 16:00:38','2008-10-09 23:59:38'),(143,1,'2008-10-02 08:00:09','2008-10-02 12:00:09'),(258,2,'2008-10-29 08:00:40','2008-10-29 14:00:40'),(147,2,'2008-10-14 08:00:19','2008-10-14 16:00:19'),(259,2,'2008-10-27 12:00:56','2008-10-27 20:00:56'),(150,2,'2008-10-15 16:00:39','2008-10-15 23:59:39'),(151,2,'2008-10-17 16:00:56','2008-10-17 23:59:56'),(152,2,'2008-10-18 16:00:40','2008-10-18 23:59:40'),(153,2,'2008-10-19 16:00:46','2008-10-19 23:59:46'),(260,2,'2008-10-21 12:00:25','2008-10-21 19:00:25'),(155,2,'2008-10-01 14:00:04','2008-10-01 22:00:04'),(156,2,'2008-10-02 12:00:53','2008-10-02 19:00:53'),(157,2,'2008-10-04 14:10:15','2008-10-04 22:00:15'),(158,2,'2008-10-05 14:10:18','2008-10-05 22:00:18'),(159,2,'2008-10-06 14:10:21','2008-10-06 22:00:21'),(256,0,'2008-09-26 02:45:37','2008-09-26 10:59:37'),(204,0,'2008-09-27 19:00:22','2008-09-27 23:00:22'),(164,0,'2008-09-25 04:00:17','2008-09-25 12:00:17'),(252,0,'2007-01-09 03:38:02','2007-01-09 12:00:02'),(254,0,'2008-09-21 12:11:08','2008-09-21 18:59:08'),(241,2,'2008-09-11 14:00:59','2008-09-11 22:00:59'),(208,0,'2008-09-18 15:24:31','2008-09-18 18:00:31'),(207,0,'2008-09-28 00:00:30','2008-09-28 12:00:30'),(182,0,'2008-09-23 07:00:54','2008-09-23 12:00:54'),(243,2,'2008-09-17 03:00:56','2008-09-17 11:00:56'),(239,2,'2008-09-08 14:00:06','2008-09-08 22:00:06'),(238,2,'2008-09-04 08:00:58','2008-09-04 16:00:58'),(236,2,'2008-09-02 08:00:09','2008-09-02 16:00:09'),(244,2,'2008-09-27 14:00:22','2008-09-27 22:00:22'),(230,2,'2008-09-25 04:00:17','2008-09-25 12:00:17'),(245,2,'2008-09-28 07:00:30','2008-09-28 15:00:30'),(234,2,'2008-09-23 07:00:54','2008-09-23 12:00:54');
+/*!40000 ALTER TABLE `Grafik` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Pracownik`
+--
+
+DROP TABLE IF EXISTS `Pracownik`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Pracownik` (
+  `id_pracownika` int(11) NOT NULL,
+  `id_stawki` int(11) default NULL,
+  `id_zmiany` int(11) default NULL,
+  `imie` char(20) default NULL,
+  `nazwisko` char(20) default NULL,
+  `data_zatrudnienia` date default NULL,
+  `data_zwolnienia` date default NULL,
+  `miasto` text,
+  `adres` text,
+  `telefon` int(11) default NULL,
+  `email` text,
+  `id_nast_zmiany` int(11) default '0',
+  PRIMARY KEY  (`id_pracownika`),
+  KEY `FK_Jest_na` (`id_zmiany`),
+  KEY `FK_posiada2` (`id_stawki`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Pracownik`
+--
+
+LOCK TABLES `Pracownik` WRITE;
+/*!40000 ALTER TABLE `Pracownik` DISABLE KEYS */;
+INSERT INTO `Pracownik` VALUES (2,8,0,'Databeson','Query','2008-06-17',NULL,'New York','Wall Street 1',444555444,'jonq@gmail.com',2),(3,3,1,'Michał','Suchecki','2008-06-17','2008-06-17','Bytom2','Francuska 5/6',121333222,'lukaszspintzyk@gmail.com',1),(8,10,0,'Roger','Guereiro','2005-07-20',NULL,'Warszawa','Legia',111221,'rg@gmail.com',0),(5,NULL,NULL,'Ala','Kowalska','1999-10-10',NULL,'Katowice','Konieczna',123123,'ala@polbox.com',0),(7,10,0,'Artur','Boruc','2005-06-25',NULL,'Glasgow','Celtic',111222,'ab@gmail.com',0),(10,10,0,'Radoslaw','Sobolewski','2005-03-01',NULL,'Krakow','Wisla',111224,'rs@gmail.com',0),(9,10,0,'Arkadiusz','Glowacki','2000-06-15',NULL,'Krakow','Wisla',111223,'ag@gmail.com',0),(6,6,1,'Paweł','Brozek','2008-09-26',NULL,'Krakow','Reymonta22',10101010,'p.b@gmail.com',1);
+/*!40000 ALTER TABLE `Pracownik` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Przyjscie_Wyjscie`
+--
+
+DROP TABLE IF EXISTS `Przyjscie_Wyjscie`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Przyjscie_Wyjscie` (
+  `id_wewy` int(11) NOT NULL auto_increment,
+  `id_pracownika` int(11) default NULL,
+  `godz_we` datetime default NULL,
+  `godz_wy` datetime default NULL,
+  PRIMARY KEY  (`id_wewy`)
+) ENGINE=MyISAM AUTO_INCREMENT=55 DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Przyjscie_Wyjscie`
+--
+
+LOCK TABLES `Przyjscie_Wyjscie` WRITE;
+/*!40000 ALTER TABLE `Przyjscie_Wyjscie` DISABLE KEYS */;
+INSERT INTO `Przyjscie_Wyjscie` VALUES (1,0,'2008-06-29 18:59:06','2008-06-29 18:59:14'),(2,0,'2008-06-20 20:01:44','2008-06-20 20:03:01'),(3,0,'2008-06-20 13:03:08','2008-06-20 13:03:23'),(4,0,'2008-06-20 13:03:23','2008-06-20 13:04:46'),(5,0,'2008-06-20 13:04:47','2008-06-20 13:08:53'),(8,0,'2008-06-20 13:14:38','2008-06-20 13:21:07'),(7,0,'2008-06-20 13:12:36','2008-06-20 13:12:40'),(9,0,'2008-06-20 13:23:58','2008-06-20 13:27:23'),(10,0,'2008-06-20 13:28:05',NULL),(11,1,'2008-09-26 02:44:00','2008-09-26 02:44:23'),(12,1,'2008-09-26 02:45:27','2008-09-26 02:45:29'),(13,1,'2008-09-26 02:45:30','2008-09-26 02:45:32'),(14,1,'2008-09-26 02:37:57','2008-09-26 02:46:26'),(50,6,'2008-09-28 06:32:21','2008-09-28 15:04:00'),(49,6,'2008-09-11 14:36:33','2008-09-11 21:36:52'),(48,6,'2008-09-08 13:58:25','2008-09-08 21:58:48'),(47,6,'2008-09-04 07:04:43','2008-09-04 18:05:31'),(46,6,'2008-09-02 07:45:40','2008-09-02 16:04:01'),(53,6,'2008-10-01 08:06:35','2008-10-01 08:06:53'),(54,6,'2008-10-02 08:07:59','2008-10-02 13:08:22');
+/*!40000 ALTER TABLE `Przyjscie_Wyjscie` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Sprzet`
+--
+
+DROP TABLE IF EXISTS `Sprzet`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Sprzet` (
+  `id_sprzetu` int(11) NOT NULL,
+  `opis` text,
+  `cena` decimal(10,2) default NULL,
+  `dezaktywowany` char(1) default '0',
+  PRIMARY KEY  (`id_sprzetu`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Sprzet`
+--
+
+LOCK TABLES `Sprzet` WRITE;
+/*!40000 ALTER TABLE `Sprzet` DISABLE KEYS */;
+INSERT INTO `Sprzet` VALUES (1,'Oscyloskop','1500.00','N'),(2,'Monitor','1000.00','N'),(3,'Hulajnoga','100.00','T'),(4,'BMW M5','800000.00','N'),(5,'GOLF 2','1500.00','N'),(6,'LAPTOP MAXDATA','2000.00','N'),(7,'TELEFON NOKIA','200.00','N'),(8,'PALMTOP','1000.00','N'),(9,'IPHONE','1500.00','N');
+/*!40000 ALTER TABLE `Sprzet` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Stawka`
+--
+
+DROP TABLE IF EXISTS `Stawka`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Stawka` (
+  `id_stawki` int(11) NOT NULL,
+  `id_pracownika` int(11) default NULL,
+  `dzienna` float default NULL,
+  `nadgodziny` float default NULL,
+  `weekendy` float default NULL,
+  `nazwa` varchar(20) default NULL,
+  `spoznienia` double default NULL,
+  PRIMARY KEY  (`id_stawki`),
+  KEY `FK_posiada` (`id_pracownika`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Stawka`
+--
+
+LOCK TABLES `Stawka` WRITE;
+/*!40000 ALTER TABLE `Stawka` DISABLE KEYS */;
+INSERT INTO `Stawka` VALUES (0,NULL,3,3,3,'Biedna',-10),(1,NULL,0.02,0.01,NULL,'Stawka G',NULL),(3,NULL,500,1000,2000,'Stawka Prezesa',0),(5,NULL,1.03,NULL,NULL,'Nieaktualna',NULL),(6,NULL,2,4,6,'Czarna',0),(7,NULL,3,4,4,'Zlecenie',-5),(8,NULL,1.02,1.2,2,'Zwykła',-1),(9,NULL,1.02,10,10,'Nieaktualna2',10.1),(10,NULL,0,0,0,'ZERO',0),(11,NULL,1.02,1.2,3,'Zwykła3',21),(12,NULL,1.02,1.2,3.02111,'Zwykła3',21),(13,NULL,1.02,1.2,3.33333e+22,'Zwykła3',21),(14,NULL,1.02,1.2,0,'Zwykła3',21),(15,NULL,1.02,1.2,0,'Zwykła3',21);
+/*!40000 ALTER TABLE `Stawka` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Typy_zwolnien`
+--
+
+DROP TABLE IF EXISTS `Typy_zwolnien`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Typy_zwolnien` (
+  `id_typu` int(11) NOT NULL,
+  `nazwa_zwolnienia` text,
+  `mnoznik` float default NULL,
+  PRIMARY KEY  (`id_typu`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Typy_zwolnien`
+--
+
+LOCK TABLES `Typy_zwolnien` WRITE;
+/*!40000 ALTER TABLE `Typy_zwolnien` DISABLE KEYS */;
+INSERT INTO `Typy_zwolnien` VALUES (0,'Zwykły',1),(1,'Urlop zdrowotny',0.9),(2,'Urlop na zadanie',0),(3,'Urlop okolicznosciowy',0.9),(4,'Nie chce mi się do roboty iść',2),(7,'Zwykły za poręczeniem szefa',1),(6,'Bezpłatny2',0),(5,'Oddawanie krwi',0.75),(10,'aa',120),(11,'aa',1.2e+06),(12,'aa',1.11111e+09),(13,'aa3#33',1.11111e+09),(8,'Służba wojskowa',0.1),(9,'Testowe',1.001),(14,'aa3#33 4',1.11111e+09);
+/*!40000 ALTER TABLE `Typy_zwolnien` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Wyplaty`
+--
+
+DROP TABLE IF EXISTS `Wyplaty`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Wyplaty` (
+  `id_wyplaty` int(11) NOT NULL auto_increment,
+  `id_pracownika` int(11) default NULL,
+  `kwota` float default NULL,
+  `data_od` date default NULL,
+  `za_co` text,
+  PRIMARY KEY  (`id_wyplaty`)
+) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Wyplaty`
+--
+
+LOCK TABLES `Wyplaty` WRITE;
+/*!40000 ALTER TABLE `Wyplaty` DISABLE KEYS */;
+INSERT INTO `Wyplaty` VALUES (1,0,0,'2008-05-06','Na zachęte'),(2,0,0,'2008-05-07','Pensja nr2'),(3,0,0,'2008-07-07','Pensja 232'),(4,0,0,'2008-07-04','Pensja'),(5,0,15500,'2008-09-25','Pensja'),(6,0,2000,'2008-09-25','Z przyjemnościa przynaje panu premię za ogrom placy włozonej w ten projekt'),(7,6,2000,'2008-09-26','Z przyjemnościa przynaje panu premię za brak bramek.'),(8,0,192.888,'2008-09-26','Za nazwisko'),(9,0,128425,'2008-09-26','Pensja'),(10,6,3000,'2008-09-29','Z przyjemnościa przynaje panu premię za wzorowe wykonywanie obowiązków'),(11,0,40.7956,'2008-09-29','Dostajesz pensję, chociaż cię nie było 3 dni w pracy'),(12,6,160.796,'2008-09-29','Ostatni raz dostaje pan pensję, mimo nieobecności'),(13,2,-34.55,'2008-09-29','Pensja'),(14,5,122,'2008-09-29','Pensja'),(15,0,12,'2008-09-29','Pensja'),(16,0,0,'2008-09-29','Pensja'),(17,0,1,'2008-09-29','Pensja'),(18,0,1,'2008-09-29','Pensja'),(19,0,1,'2008-09-29','Pensja'),(20,0,111111,'2008-09-29','Pensja'),(21,0,0,'2008-09-29','Pensja'),(22,0,0,'2008-09-29','Pensja'),(23,6,280.747,'2008-09-29','Pensja'),(24,6,280.847,'2008-09-29','Pensja'),(25,6,157.747,'2008-09-29','Pensja'),(26,0,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(27,0,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(28,-1,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(29,6,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(30,6,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(31,6,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(32,6,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(33,6,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...'),(34,6,0,'2008-09-29','Z przyjemnościa przynaje panu premię za ...');
+/*!40000 ALTER TABLE `Wyplaty` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Zmiana`
+--
+
+DROP TABLE IF EXISTS `Zmiana`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Zmiana` (
+  `id_zmiany` int(11) NOT NULL,
+  `data_od` date default NULL,
+  PRIMARY KEY  (`id_zmiany`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Zmiana`
+--
+
+LOCK TABLES `Zmiana` WRITE;
+/*!40000 ALTER TABLE `Zmiana` DISABLE KEYS */;
+INSERT INTO `Zmiana` VALUES (0,'2008-06-01'),(1,'3908-11-01'),(2,'3908-10-01');
+/*!40000 ALTER TABLE `Zmiana` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Zwolnienia`
+--
+
+DROP TABLE IF EXISTS `Zwolnienia`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `Zwolnienia` (
+  `id_zwolnienia` int(11) NOT NULL auto_increment,
+  `id_pracownika` int(11) default NULL,
+  `id_typu` int(11) default NULL,
+  `zwolnienie_od` date default NULL,
+  `zwolnienie_do` date default NULL,
+  `zatwierdzone` char(1) default '0',
+  `odrzucone` char(1) default '0',
+  PRIMARY KEY  (`id_zwolnienia`),
+  KEY `FK_Relationship_10` (`id_typu`),
+  KEY `FK_byl_na_zwolnieniu` (`id_pracownika`)
+) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `Zwolnienia`
+--
+
+LOCK TABLES `Zwolnienia` WRITE;
+/*!40000 ALTER TABLE `Zwolnienia` DISABLE KEYS */;
+INSERT INTO `Zwolnienia` VALUES (25,0,3,'2008-08-01','2008-08-02','1','0'),(24,0,2,'2008-07-07','2008-06-09','0','1'),(23,0,1,'2008-07-07','2008-07-08','0','1'),(22,0,0,'2008-07-07','2008-07-08','0','1'),(17,1,0,'2008-06-28','2008-06-28','1','0'),(26,0,0,'2008-06-12','2008-06-18','0','1'),(27,0,0,'2008-06-02','2008-06-03','0','1'),(28,1,2,'2008-09-25','2008-09-28','0','0'),(29,6,4,'2008-09-26','2008-10-01','0','1'),(30,6,5,'2008-09-26','2008-09-27','1','0');
+/*!40000 ALTER TABLE `Zwolnienia` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `nadgodziny`
+--
+
+DROP TABLE IF EXISTS `nadgodziny`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `nadgodziny` (
+  `id_pracownika` int(11) default NULL,
+  `id_nadgodzin` int(11) NOT NULL auto_increment,
+  `data_wyjscia` datetime default NULL,
+  `czas` time default NULL,
+  PRIMARY KEY  (`id_nadgodzin`)
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `nadgodziny`
+--
+
+LOCK TABLES `nadgodziny` WRITE;
+/*!40000 ALTER TABLE `nadgodziny` DISABLE KEYS */;
+INSERT INTO `nadgodziny` VALUES (6,6,'2008-09-04 18:05:31','02:04:33'),(6,5,'2008-09-04 07:04:43','00:56:15'),(6,4,'2008-09-02 07:45:40','00:14:29'),(6,7,'2008-09-28 06:32:21','00:28:09'),(6,10,'2008-10-01 08:06:35','23:53:34'),(6,11,'2008-10-02 13:08:22','01:08:13');
+/*!40000 ALTER TABLE `nadgodziny` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `spoznienie`
+--
+
+DROP TABLE IF EXISTS `spoznienie`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `spoznienie` (
+  `id_spoznienia` int(11) NOT NULL auto_increment,
+  `id_pracownika` int(11) default NULL,
+  `data_przyjscia` datetime default NULL,
+  `czas_spoznienia` time default NULL,
+  PRIMARY KEY  (`id_spoznienia`)
+) ENGINE=MyISAM AUTO_INCREMENT=57 DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `spoznienie`
+--
+
+LOCK TABLES `spoznienie` WRITE;
+/*!40000 ALTER TABLE `spoznienie` DISABLE KEYS */;
+INSERT INTO `spoznienie` VALUES (1,0,'2008-06-20 00:00:00','00:11:00'),(51,6,'2008-09-11 21:36:52','00:24:06'),(50,6,'2008-09-11 14:36:33','00:35:34'),(55,6,'2008-10-01 08:06:53','03:53:15'),(56,6,'2008-10-02 08:07:59','00:07:50');
+/*!40000 ALTER TABLE `spoznienie` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `uprawnienia`
+--
+
+DROP TABLE IF EXISTS `uprawnienia`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `uprawnienia` (
+  `id_uprawnienia` int(11) NOT NULL,
+  `uprawnienie` int(11) default NULL,
+  `opis_uprawnienia` text,
+  PRIMARY KEY  (`id_uprawnienia`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Uprawnienia użytkowników';
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `uprawnienia`
+--
+
+LOCK TABLES `uprawnienia` WRITE;
+/*!40000 ALTER TABLE `uprawnienia` DISABLE KEYS */;
+INSERT INTO `uprawnienia` VALUES (0,0,'Szef'),(1,1,'Administrator'),(2,2,'Kadrowy'),(3,3,'Pracownik');
+/*!40000 ALTER TABLE `uprawnienia` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `uzytkownik`
+--
+
+DROP TABLE IF EXISTS `uzytkownik`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `uzytkownik` (
+  `id_uzytkownika` int(11) NOT NULL auto_increment,
+  `id_pracownika` int(11) default NULL,
+  `id_uprawnienia` int(11) default NULL,
+  `login` text,
+  `password` int(11) default NULL,
+  PRIMARY KEY  (`id_uzytkownika`),
+  KEY `FK_jest` (`id_pracownika`),
+  KEY `FK_ma_uprawnienia` (`id_uprawnienia`)
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `uzytkownik`
+--
+
+LOCK TABLES `uzytkownik` WRITE;
+/*!40000 ALTER TABLE `uzytkownik` DISABLE KEYS */;
+INSERT INTO `uzytkownik` VALUES (2,2,1,'admin',1234),(3,2,2,'kadrowy',1234),(1,2,0,'boss',1234),(4,0,3,'luke2',1234),(5,0,2,'luke_kadr',1234),(6,1,3,'luke',1234),(7,10,0,'bolo',1234),(8,11,0,'nowy',1234),(9,6,3,'pb',1234),(10,7,3,'artbo',1234),(11,8,3,'roge',1234),(12,9,3,'ag',1234),(13,10,3,'rs',1234);
+/*!40000 ALTER TABLE `uzytkownik` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wypozyczyl`
+--
+
+DROP TABLE IF EXISTS `wypozyczyl`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
+CREATE TABLE `wypozyczyl` (
+  `id_pracownika` int(11) NOT NULL,
+  `id_sprzetu` int(11) NOT NULL,
+  PRIMARY KEY  (`id_pracownika`,`id_sprzetu`),
+  KEY `FK_wypozyczyl2` (`id_sprzetu`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Dumping data for table `wypozyczyl`
+--
+
+LOCK TABLES `wypozyczyl` WRITE;
+/*!40000 ALTER TABLE `wypozyczyl` DISABLE KEYS */;
+INSERT INTO `wypozyczyl` VALUES (1,1),(1,2),(3,7),(6,5),(10,4);
+/*!40000 ALTER TABLE `wypozyczyl` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2008-10-02 11:17:11
